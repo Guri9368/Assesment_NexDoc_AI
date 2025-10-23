@@ -6,7 +6,7 @@ import { APP_CONFIG } from '../../utils/constants';
 
 interface MessageBubbleProps {
   message: Message;
-  isFirstMessage?: boolean;
+  
 }
 
 const MessageBubble: React.FC<MessageBubbleProps> = ({ message, isFirstMessage }) => {

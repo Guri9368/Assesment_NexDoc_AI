@@ -67,11 +67,11 @@ const ChatConversation: React.FC = () => {
             gap: 3,
           }}
         >
-          {activeChat.messages.map((message, index) => (
+          {activeChat.messages.map((message) => (
             <MessageBubble
               key={message.id}
               message={message}
-              isFirstMessage={index === 0}
+              
             />
           ))}
 

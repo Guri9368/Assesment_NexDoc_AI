@@ -11,10 +11,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
-  const { sidebarOpen } = useChatStore();
 
-  const sidebarWidth = APP_CONFIG.sidebarWidth;
 
   return (
     <Box
