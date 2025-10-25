@@ -9,7 +9,7 @@ interface MessageBubbleProps {
   
 }
 
-const MessageBubble: React.FC<MessageBubbleProps> = ({ message, isFirstMessage }) => {
+const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
   const theme = useTheme();
   const isUser = message.sender === 'user';
 

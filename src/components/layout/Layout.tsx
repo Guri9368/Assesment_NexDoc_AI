@@ -1,9 +1,8 @@
 import React from 'react';
-import { Box, useTheme, useMediaQuery } from '@mui/material';
+import { Box, useTheme } from '@mui/material';
 import Sidebar from './Sidebar';
 import Header from './Header';
-import { useChatStore } from '../../store/chatStore';
-import { APP_CONFIG } from '../../utils/constants';
+
 
 interface LayoutProps {
   children: React.ReactNode;
